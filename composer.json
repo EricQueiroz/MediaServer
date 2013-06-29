@@ -1,0 +1,27 @@
+{
+	"name": "EricQueiroz/MediaServer",
+    "type": "application",
+    "description": "A media manager system",
+    "keywords": ["media"],
+    "homepage": "https://github.com/EricQueiroz/MediaServer",
+    "authors": [
+        {
+            "name": "Eric Queiroz",
+            "email": "queiroz.eric@gmail.com"
+        },
+        {
+            "name": "Joao Lenon",
+            "email": "jlenonweb@gmail.com"
+        },
+        {
+            "name": "Pedro Fornaza",
+            "email": "pedro.fornaza@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-0": { "MediaServer": "src/" }
+	},
+	"require": {
+		"slim/slim": "*"
+	}
+}
